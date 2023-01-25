@@ -38,7 +38,7 @@ def get_dataset(dataset_name):
 X,y = get_dataset(dataset_name)
 st.write("Shape of Dataset",X.shape)
 st.write("Unique Values",len(np.unique(y)))
-st.write("Dataset         ",dataset_name)
+st.write("Dataset   name      ",dataset_name)
 # ab hum log model k parameter add karye gye
 def add_parameter_ui(classifier_name):
     param = dict()
